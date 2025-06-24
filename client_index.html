@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0" />
+    <title>Echoes of Yesterday</title>
+    <!-- SEO meta tags -->
+    <meta name="description" content="Echoes of Yesterday is a narrative puzzle adventure game. Explore memories, solve mysteries, and immerse yourself in an interactive story. Play instantly in your browser!" />
+    <meta property="og:title" content="Echoes of Yesterday - Play Now" />
+    <meta property="og:description" content="A narrative puzzle adventure game. Explore, solve, and uncover the past. Play instantly!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://car-happy.github.io/echoes/" />
+    <!-- You can add a screenshot here -->
+    <!-- <meta property="og:image" content="https://car-happy.github.io/echoes/screenshot.png" /> -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #000;
+        font-family: 'Inter', sans-serif;
+      }
+      
+      #root {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      
+      canvas {
+        display: block;
+        touch-action: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
